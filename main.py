@@ -16,7 +16,7 @@ for i in lst:
                 isStarted = True
         else:
             if datetime.now().hour == int(i[2].split(':')[0]) and datetime.now().minute == int(i[2].split(':')[1]):
-                keyboard.press('q')
+                keyboard.press('w')
                 time.sleep(1)
                 keyboard.press(Key.enter)
                 isStarted = False
